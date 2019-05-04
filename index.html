@@ -20,8 +20,13 @@
         <h1 id="header"></h1>
         <h2 id="introduce"></h2>
         <div id="intro"></div>
+        <h2 id="experience"></h2>
+        <div id="exp"></div>
+        <h2 id="interest"></h2>
+        <div id="inter"></div>
         <h2 id="talk"></h2>
         <div id="talking"></div>
+        
         <script>
             var header = document.getElementById("header");
             var href = window.location.href;
@@ -35,7 +40,7 @@
                     var filename = value + ".json";
                     
                     $.getJSON(filename, function(json) {
-                        if(json["name"]){
+                        if (json["name"]) {
                             header.innerText = json["name"];
                             introduce.innerText = "소개"
                             var intro = document.getElementById("intro");
@@ -44,6 +49,18 @@
                             talk.innerText = "하고 싶은 말";
                             var talking = document.getElementById("talking");
                             talking.innerText = json["talk"];
+                            if (json["experience"]) {
+                                var exp = document.getElementById("experience");
+                                var contents = document.getElementById("exp");
+                                contents.innerText = json["experience"];
+                                exp.innerText = "경험";
+                            }
+                            if (json["interest"]) {
+                                var interest = document.getElementById("interest");
+                                interest.innerText = "흥미";
+                                var contents = document.getElementById("inter");
+                                contents.innerText = json["interest"];
+                            }
                         } else {
                             header.innerText = "이름을 입력해주세요";
                         }
