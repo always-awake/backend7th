@@ -1,5 +1,7 @@
 {
   "name" : "기우영",
   "introduce" : "저는 신입 개발자 입니다. 요새 공부를 안해서 큰일입니다. 그래서 백엔드 팀분들과 열심히 코딩하고 싶습니다~! 4 ~ 7월달에 패스티벌도 많이 하는데 같이 놀러 갔으면 좋겠어요~!",
-  "talk" : "introduce 가 하고싶은 말입니다.."
+  "talk" : "introduce 가 하고싶은 말입니다..",
+  "experience" : "AOS, iOS(끝장을 보고 싶음..), React, Nodejs, SpringBoot, Mysql, ElasticSearch, Devops", 
+  "interest" : "Container, MSA, 자동화, CS"
 }
