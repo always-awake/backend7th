@@ -1,5 +1,7 @@
 {
 	"name" : "김지혜",
 	"introduce" : "안녕하세요 김지혜라고 합니다. 나이는 27살이고 올해 막학기다니고 8월에 졸업해요!",
-	"talk" : "올해도 잘 부탁드려요!"
+	"talk" : "올해도 잘 부탁드려요!",
+	"experience" : "Java(Spring), python(딥러닝-자연어처리), C", 
+	"interest" : "java NIO, netty, Go"
 }
